@@ -1,0 +1,170 @@
+.active-wrapper1 {
+    background-color: #ffffff;
+    height: 65vh;
+}
+
+.contact-info {
+    color: blue;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.message-content {
+    height: calc(100% - 65px);
+    width: 100%;
+    overflow-y: scroll;
+}
+
+.message-content::-webkit-scrollbar {
+    display: none;
+}
+
+
+.sender-area {
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    padding: 6px 15px;
+}
+
+.sender-content {
+    max-width: 100%;
+    padding: 12px;
+    background-color: #e1f3ff;
+    border-radius: 50px 0px 50px 50px;
+    color: #495059;
+    font-size: 13px;
+    margin: 0px;
+}
+
+.sender-time p {
+    color: #c7ccd2;
+    margin-bottom: 0px;
+    font-size: 11px;
+    padding-right: 10px;
+}
+
+.receiver-time p {
+    color: #c7ccd2;
+    margin-bottom: 0px;
+    font-size: 12px;
+    padding-right: 10px;
+}
+
+
+.receiver-area {
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    padding: 10px 20px;
+}
+
+.receiver-content {
+    max-width: 100%;
+    padding: 12px;
+    background-color: #e1f3ff;
+    border-radius: 0px 50px 50px 50px;
+    color: #495059;
+    font-size: 13px;
+    margin: 0px;
+}
+
+.reveiver-content p {
+    color: black;
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+
+.receiver-photo {
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    margin-right: 8px;
+}
+
+.message-footer {
+    height: 60px;
+    width: 100%;
+    padding: 13px;
+    background: white;
+    border-top: 2px solid #f2f5f9;
+    display: flex;
+    border-bottom: 5px solid #f2f5f9;
+}
+
+.message-header {
+    height: 60px;
+    width: 100%;
+    padding: 13px;
+    background: white;
+    display: flex;
+    border-bottom: 2px solid #f2f5f9;
+}
+
+.search-message {
+    font-size: 14px;
+    font-weight: 500;
+    color: #7f8790;
+    width: 100%;
+    padding: 3px 15px;
+    border: 2px solid #e7eaed;
+    border-radius: 4px;
+    outline: none;
+}
+
+
+.send-buton {
+    color: #0d53fd;
+    cursor: pointer;
+}
+
+.calender-img {
+    font-size: 12px;
+    color: #d9d2d3;
+    padding-right: 7px;
+}
+
+.btn-text {
+    color: white;
+    font-size: 16px;
+    padding: 3px 30px;
+    background: #3ac57d;
+}
+
+.print-img {
+    color: #f66f92;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.square {
+    width: 10px;
+    height: 10px;
+    background-color: #3ac47c;
+    border-radius: 50px;
+    position: absolute;
+    right: 6px;
+    bottom: 0px;
+    border: 2px solid white;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .receiver-content {
+        padding: 10px;
+        border-radius: 0px 20px 20px 20px;
+        font-size: 11px;
+    }
+
+    .sender-content {
+        padding: 11px;
+        border-radius: 20px 0px 20px 20px;
+        font-size: 11px;
+    }
+}
+
+
