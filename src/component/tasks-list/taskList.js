@@ -63,14 +63,10 @@ export default function TaskList() {
                                 <div className="col-6 p-0">
                                     <p className='written1 m-0'>This task has show on hover actions!</p>
                                 </div>
-                                <div className='col-6 p-0'>
+                                <div className='col-6 col-lg-2 p-0'>
                                     <p className='new-btn m-0'>Latest task</p>
                                 </div>
                             </div>
-                            {/* <div className='d-flex justify-content-between'>
-                                
-                                
-                            </div> */}
                         </div>
                     </div>
                 </div>

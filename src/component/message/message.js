@@ -65,7 +65,7 @@ export default function Message() {
                     </div>
                 </div>
                 <div className='message-content'>
-                    {messageList.map((data) => {
+                    {messageList.map((data) => { 
                         return <>
                            { data.type == 'sender' && <div className='receiver-area'>
                                 <div className='position-relative'>
