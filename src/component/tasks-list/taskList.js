@@ -39,9 +39,13 @@ export default function TaskList() {
                             <div className='d-flex'>
                                 <p className='car-title m-0'>Task with dropdown menu</p>
                             </div>
-                            <div className='d-flex justify-content-between'>
-                                <p className='written1 m-0 pe-2'>By Johnny</p>
-                                <p className='new-btn m-0'>Latest task</p>
+                            <div className='row justify-content-between'>
+                                <div className='col-6 p-0'>
+                                    <p className='written1 m-0 pe-2'>By Johnny</p>
+                                </div>
+                                <div className='col-6 col-lg-3'>
+                                    <p className='new-btn text-center m-0'>Latest task</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -57,14 +61,13 @@ export default function TaskList() {
                         <div className='me-2 w-100'>
                             <div className='d-flex'>
                                 <p className='car-title m-0'>Badge on the right task</p>
-
                             </div>
                             <div className="row justify-content-between">
                                 <div className="col-6 p-0">
                                     <p className='written1 m-0'>This task has show on hover actions!</p>
                                 </div>
-                                <div className='col-6 col-lg-2 p-0'>
-                                    <p className='new-btn m-0'>Latest task</p>
+                                <div className='col-6 col-lg-3'>
+                                    <p className='new-btn text-center m-0'>Latest task</p>
                                 </div>
                             </div>
                         </div>
